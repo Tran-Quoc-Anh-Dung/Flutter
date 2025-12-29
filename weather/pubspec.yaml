@@ -1,0 +1,63 @@
+# Tên của dự án Flutter
+name: flutter_weather_example
+
+# Mô tả của dự án
+description: "A new Flutter project."
+
+# Không publish dự án này lên pub.dev
+publish_to: "none"
+
+# Phiên bản ứng dụng: 1.0.0, build number: 1
+version: 1.0.0+1
+
+# Cấu hình môi trường
+environment:
+  # Yêu cầu Dart SDK từ phiên bản 3.6.2 trở lên
+  sdk: ^3.6.2
+
+# Các thư viện phụ thuộc chính (dependencies)
+dependencies:
+  # Framework Flutter chính
+  flutter:
+    sdk: flutter
+
+  # Icon cho iOS (Cupertino style)
+  cupertino_icons: ^1.0.8
+
+  # HTTP client library - dùng để gọi API
+  dio: ^5.0.0
+
+  # Retrofit - REST client tự động generate code
+  retrofit: ^4.0.0
+
+  # BLoC - State management library
+  flutter_bloc: ^8.1.0
+
+  # Equatable - giúp so sánh các đối tượng dễ hơn
+  equatable: ^2.0.5
+
+  # Shared Preferences - lưu trữ dữ liệu cục bộ (local storage)
+  shared_preferences: ^2.2.0
+
+  # Geolocator - lấy vị trí hiện tại của user (latitude, longitude)
+  geolocator: ^9.0.2
+
+# Các thư viện phụ thuộc cho development/testing
+dev_dependencies:
+  # Framework test cho Flutter
+  flutter_test:
+    sdk: flutter
+
+  # Lint rules để kiểm tra chất lượng code
+  flutter_lints: ^5.0.0
+
+  # Build runner - chạy code generators
+  build_runner: ^2.4.0
+
+  # Generator cho Retrofit - tự động generate API client code
+  retrofit_generator: ^9.0.0
+
+# Cấu hình Flutter
+flutter:
+  # Sử dụng Material Design icons và widgets
+  uses-material-design: true
